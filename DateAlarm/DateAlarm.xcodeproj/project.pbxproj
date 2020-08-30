@@ -13,6 +13,7 @@
 		AC0C6C4C24FA67C4006EF82A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0C6C4A24FA67C4006EF82A /* Main.storyboard */; };
 		AC0C6C4E24FA67C5006EF82A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0C6C4D24FA67C5006EF82A /* Assets.xcassets */; };
 		AC0C6C5124FA67C5006EF82A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0C6C4F24FA67C5006EF82A /* LaunchScreen.storyboard */; };
+		AC9B3F0624FBCB4F000D756B /* ScheduleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B3F0524FBCB4F000D756B /* ScheduleDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AC0C6C4D24FA67C5006EF82A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC0C6C5024FA67C5006EF82A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC0C6C5224FA67C5006EF82A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9B3F0524FBCB4F000D756B /* ScheduleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				AC0C6C4D24FA67C5006EF82A /* Assets.xcassets */,
 				AC0C6C4F24FA67C5006EF82A /* LaunchScreen.storyboard */,
 				AC0C6C5224FA67C5006EF82A /* Info.plist */,
+				AC9B3F0724FBCB59000D756B /* Model */,
 			);
 			path = DateAlarm;
+			sourceTree = "<group>";
+		};
+		AC9B3F0724FBCB59000D756B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B3F0524FBCB4F000D756B /* ScheduleDataSource.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				AC0C6C4924FA67C4006EF82A /* ViewController.swift in Sources */,
 				AC0C6C4524FA67C4006EF82A /* AppDelegate.swift in Sources */,
 				AC0C6C4724FA67C4006EF82A /* SceneDelegate.swift in Sources */,
+				AC9B3F0624FBCB4F000D756B /* ScheduleDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
